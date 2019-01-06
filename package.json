@@ -1,0 +1,26 @@
+{
+  "name": "podcast-react-next",
+  "version": "1.0.0",
+  "description": "App de podcast integrada con la API de AudioBoom como prueba para el desarrollo de apps con Next.JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronAS2016/podcast-react-next.git"
+  },
+  "author": "Aaron Saban",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^7.0.2",
+    "next-routes": "^1.4.2",
+    "nprogress": "^0.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "slugify": "^1.3.4"
+  }
+}
